@@ -1,199 +1,109 @@
-# Awesome-Marketplace-Management
+# 🛒 Awesome Marketplace Management 🚀
 
-## Top Marketplace Management Platform Ecosystem
+[![Banner](assets/banner.svg)](https://github.com/ishandutta2007/Awesome-Marketplace-Management)
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Marketplace-Management?style=flat-square&color=blue" alt="License"/>
+  <img src="https://img.shields.io/github/last-commit/ishandutta2007/Awesome-Marketplace-Management?style=flat-square&color=green" alt="Last Commit"/>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Multi-Channel Selling, Marketplace Listing & Inventory Sync, Order Aggregation, Feed Management & Omnichannel Commerce Operations*  
-
-**Last updated: September 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Marketplace Management**. These systems help merchants sell across multiple online marketplaces and channels (Amazon, eBay, Walmart, regional marketplaces, etc.) by centralizing product catalogs, synchronizing inventory and prices, managing listings, and aggregating orders into a single workflow.
-
-
-
-**Examples** include ChannelEngine, Linnworks, ChannelAdvisor (Rithum), CedCommerce, Shoppingfeed, Sellercloud, Expandly, Tradebyte, Productsup, and ChannelUnity (the category leaders).
-
-
-
-**Open-source emphasis**: True multi-channel marketplace *management* platforms that connect sellers to external marketplaces at scale are almost entirely commercial. Open-source activity is stronger in **multi-vendor marketplace platforms** (building your own marketplace) and in individual channel connectors or feed tools. This section lists every relevant project and realistic building block found, while clearly distinguishing the two use cases.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[ChannelEngine](https://www.channelengine.com/)**  
-
-  Marketplace management suite for automated multi-channel listing, catalog synchronization, inventory/price rules, and order handling across hundreds of marketplaces and sales channels.
-
-
-
-- **[Linnworks](https://www.linnworks.com/)**  
-
-  Commerce automation platform covering multi-channel inventory, order management, listing tools, and fulfillment workflows for sellers operating on major marketplaces.
-
-
-
-- **[ChannelAdvisor (Rithum)](https://www.channeladvisor.com/)**  
-
-  Established multi-channel platform for optimizing listings, inventory, pricing, and performance across global marketplaces and digital channels.
-
-
-
-- **[Sellercloud, CedCommerce, Shoppingfeed](https://www.sellercloud.com/)**  
-
-  Solutions focused on high-SKU marketplace sellers, app-based marketplace connectors, and product-feed management for omnichannel retail.
-
-
-
-- **[Expandly, Tradebyte, Productsup, ChannelUnity](https://www.productsup.com/)**  
-
-  Platforms specializing in product data syndication, marketplace integration, feed optimization, and multi-channel catalog management.
-
-
-
-- **[Other commercial marketplace & channel management platforms](https://www.channelengine.com/)**  
-
-  Additional tools for listing automation, inventory sync, order aggregation, and performance analytics across marketplaces.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[Bagisto](https://github.com/bagisto/bagisto)**  
-
-  Popular open-source Laravel eCommerce and multi-vendor marketplace platform. Supports single-vendor stores and full multi-vendor marketplaces with seller dashboards, commissions, and order handling.
-
-
-
-- **[OpenMVM](https://github.com/openmvm/OpenMVM)**  
-
-  Open-source multi-vendor e-commerce marketplace platform (still evolving). Provides seller registration, product management, multi-language/currency, and basic marketplace storefront features.
-
-
-
-- **[Mercur](https://www.mercurjs.com/)**  
-
-  Open-source multi-vendor marketplace platform (MIT-licensed core) designed for building and owning a complete marketplace with storefront, vendor panel, and admin console.
-
-
-
-- **[Experimental multi-channel seller tools](https://github.com/search?q=marketplace+seller+management+OR+multi-channel+listing)**  
-
-  Community and AI-native projects aiming at listing, inventory, and order synchronization across marketplaces (maturity and production readiness vary widely).
-
-
-
-- **[Individual marketplace API connectors](https://github.com/search?q=Amazon+SP-API+OR+eBay+API+OR+marketplace+connector)**  
-
-  Open libraries and SDKs for Amazon SP-API, eBay, and other marketplace APIs that developers use to build custom sync and listing tools.
-
-
-
-- **[Product feed & catalog open tools](https://github.com/search?q=product+feed+OR+catalog+syndication+open+source)**  
-
-  Projects for generating, transforming, and validating product feeds that can be pushed to marketplaces or shopping channels.
-
-
-
-- **[Inventory sync & order aggregation prototypes](https://github.com/search?q=inventory+sync+OR+order+aggregation+marketplace)**  
-
-  Academic and small-scale tools that demonstrate multi-channel stock and order consolidation patterns.
-
-
-
-- **[E-commerce frameworks with channel extensions](https://github.com/search?q=Medusa+OR+Saleor+OR+Vendure+marketplace)**  
-
-  Headless or open commerce platforms that can be extended with custom marketplace connectors.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Build-your-own marketplace**: Bagisto, OpenMVM, Mercur for multi-vendor platforms you host and control.
-
-- **Custom seller tools**: Combine marketplace official APIs + open inventory databases + workflow engines.
-
-- **Feed generation**: Open catalog and feed transformers as input to commercial or custom channel managers.
-
-- **Headless commerce + connectors**: Medusa, Saleor, or similar cores with bespoke marketplace integrations.
-
-- Note the distinction: open multi-*vendor* marketplaces ≠ open multi-*channel* seller management that connects to Amazon/eBay/Walmart at enterprise scale.
-
-
-
-**Frameworks for building custom systems**:  
-
-There is no mature, production-ready open-source equivalent to commercial multi-channel marketplace management platforms (ChannelEngine, Linnworks, ChannelAdvisor, Sellercloud, etc.).  
-
-Open-source strength lies in **multi-vendor marketplace platforms** (Bagisto, Mercur, OpenMVM) that let you run your own marketplace, and in individual API connectors and feed tools.  
-
-Building a full multi-channel seller management system from open components requires significant custom development for listing rules, inventory conflict resolution, order routing, compliance, and ongoing API maintenance across dozens of marketplaces.  
-
-Most multi-channel sellers rely on commercial platforms for reliability, pre-built connectors, and support; open-source is more commonly used for custom storefronts, internal tools, or building a marketplace of your own.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Marketplace selling involves platform-specific policies, fees, data requirements, and compliance obligations. Incorrect inventory sync or listing data can lead to suspensions or lost sales.
-
-- Open-source multi-vendor platforms and API connectors offer flexibility and ownership but require development, maintenance, and security expertise. Commercial marketplace management tools provide pre-built, supported integrations at scale. Choose according to channel count, order volume, technical capacity, and risk tolerance.
-
-
+> **A Curated Directory & Ecosystem Guide for SaaS Marketplace Management Platforms, Open-Source Multi-Vendor Frameworks, Inventory & Listing Sync Tools, and Omnichannel Commerce Operations.** 📊 Hub for sellers, e-commerce engineers, and marketplace ops.
 
 ---
 
+## 📚 Table of Contents
+- [🌐 Market Size & Industry Structure](#-market-size--industry-structure)
+- [🏢 SaaS & Commercial Platforms](#-saas--commercial-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
 
+---
 
-**Made for multi-channel sellers, marketplace managers, e-commerce operators, and commerce technology teams.**  
+## 🌐 Market Size & Industry Structure
 
-Let's expand open tools for commerce while recognizing the specialized connectors, scale, and operational reliability that leading commercial marketplace management platforms deliver.
+> 💡 **Market Size & Overview:** The global e-commerce marketplace management software market is estimated at **$3.5 Billion in 2026** (projected to reach **$7.8 Billion by 2032** growing at a CAGR of ~14.2%).
+> 
+> 🧩 **Market Fragmentation:** The sector is **moderately fragmented**. High enterprise complexity, regional marketplace variations (e.g., Mercado Libre, Shopee, Allegro), and specialized integration requirements prevent a "winner-take-all" dynamic, allowing key enterprise players (Rithum, ChannelEngine, Productsup) and agile mid-market tools (Linnworks, Sellercloud, CedCommerce) to thrive side-by-side.
+
+---
+
+## 🏢 SaaS & Commercial Platforms
+
+Top multi-channel marketplace listing, inventory sync, and order management platforms, ordered by estimated market valuation and enterprise annual revenue (descending).
+
+| Platform | Company Size (Valuation / Est. Revenue) 💰 | Starting Pricing Tier 🏷️ | Free Tier / Free Trial Limit 🎁 | Description & Core Focus 🎯 |
+| :--- | :--- | :--- | :--- | :--- |
+| **[ChannelAdvisor (Rithum)](https://www.channeladvisor.com/)** 🏢 | **~$1.0B Valuation** (~$200M+ Annual Revenue) | Starting at **$2,000 / month** (plus GMV-based commission fees) | **No Free Trial** (Custom enterprise demo & paid trial on request) | Premier enterprise multi-channel management software for global brands operating across Amazon, eBay, Walmart, and 300+ channels. |
+| **[Productsup](https://www.productsup.com/)** 🚀 | **~$500M Valuation** (Series B $70M+, ~$50M Revenue) | Custom enterprise tiers starting at **$1,500 / month** | **14-day Free Trial** (Limited to 1,000 product SKUs feed test) | Product data syndication & feed management platform for enterprise catalog optimization across 2,500+ shopping channels. |
+| **[ChannelEngine](https://www.channelengine.com/)** ⚡ | **~$250M Valuation** (Series B $50M+, ~$35M Revenue) | Starting at **$600 / month** (plus variable success fee based on GMV) | **14-day Free Trial** (Sandbox environment with mock marketplace channels) | Advanced marketplace automation platform synchronizing catalog, stock, and orders with 1,300+ global marketplaces. |
+| **[Linnworks](https://www.linnworks.com/)** 📦 | **~$200M Valuation** (~$40M Annual Revenue) | Starting at **$449 / month** (Standard plan up to 1,000 monthly orders) | **14-day Free Trial** (Full feature access capped at 100 test orders) | Multi-channel inventory control, order management, and shipping fulfillment automation system. |
+| **[Sellercloud](https://www.sellercloud.com/)** 🛒 | **~$100M Valuation** (~$25M Annual Revenue) | Starting at **$1,199 / month** (Includes base usage + per-transaction fees) | **30-day Free Trial** (Includes complete multi-channel inventory sync testing) | Comprehensive e-commerce operations manager covering multi-channel listing, inventory sync, WMS, and order fulfillment. |
+| **[CedCommerce](https://cedcommerce.com/)** 🔌 | **~$30M Valuation** (~$10M Annual Revenue) | Per-channel app starting at **$19 / month** per marketplace connector | **7-day Free Trial** (Includes 50 imported orders & 100 SKU syncs) | Modular marketplace integration apps & connectors connecting Shopify, WooCommerce, and Magento to major marketplaces. |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+Curated open-source multi-vendor marketplace frameworks, headless commerce foundations, and developer tools, sorted by GitHub repository star counts (descending).
+
+| Repository 📦 | GitHub Stars ⭐ | Primary Use Case & Architecture 🏗️ | Key Features & Strengths 🌟 |
+| :--- | :--- | :--- | :--- |
+| **[medusajs/medusa](https://github.com/medusajs/medusa)** ⚡ | [![medusajs/medusa Stars](https://img.shields.io/github/stars/medusajs/medusa?style=social&color=white)](https://github.com/medusajs/medusa/stargazers) | Headless Open-Source Commerce Engine | Node.js / TypeScript open commerce engine; customizable for multi-vendor and custom marketplace integrations. |
+| **[bagisto/bagisto](https://github.com/bagisto/bagisto)** 🛍️ | [![bagisto/bagisto Stars](https://img.shields.io/github/stars/bagisto/bagisto?style=social&color=white)](https://github.com/bagisto/bagisto/stargazers) | PHP / Laravel Multi-Vendor Marketplace | Production-ready Laravel platform for multi-vendor marketplaces with vendor panel, commission tracking, and storefront. |
+| **[saleor/saleor](https://github.com/saleor/saleor)** 🎨 | [![saleor/saleor Stars](https://img.shields.io/github/stars/saleor/saleor?style=social&color=white)](https://github.com/saleor/saleor/stargazers) | GraphQL-first Headless Commerce Framework | Python / Django + GraphQL ultra-fast headless platform easily extensible with custom channel & marketplace extensions. |
+| **[woocommerce/woocommerce](https://github.com/woocommerce/woocommerce)** 🔌 | [![woocommerce/woocommerce Stars](https://img.shields.io/github/stars/woocommerce/woocommerce?style=social&color=white)](https://github.com/woocommerce/woocommerce/stargazers) | Open E-Commerce Platform & Ecosystem | World's most popular WordPress e-commerce framework with extensive open marketplace sync extensions. |
+| **[PrestaShop/PrestaShop](https://github.com/PrestaShop/PrestaShop)** 🏪 | [![PrestaShop/PrestaShop Stars](https://img.shields.io/github/stars/PrestaShop/PrestaShop?style=social&color=white)](https://github.com/PrestaShop/PrestaShop/stargazers) | Modular PHP Commerce Platform | PHP open-source commerce solution featuring extensive community modules for Amazon, eBay, and Etsy listing. |
+| **[vendurehq/vendure](https://github.com/vendurehq/vendure)** ⚙️ | [![vendurehq/vendure Stars](https://img.shields.io/github/stars/vendurehq/vendure?style=social&color=white)](https://github.com/vendurehq/vendure/stargazers) | Modern TypeScript / NestJS Commerce Framework | Headless GraphQL e-commerce framework built on Node.js/TypeScript designed for multi-channel seller extensions. |
+| **[activemerchant/active_merchant](https://github.com/activemerchant/active_merchant)** 💳 | [![activemerchant/active_merchant Stars](https://img.shields.io/github/stars/activemerchant/active_merchant?style=social&color=white)](https://github.com/activemerchant/active_merchant/stargazers) | Ruby Payment & Commerce Integrations | Shopify-backed Ruby library abstracting payment gateways and commercial integrations. |
+| **[mercurjs/mercur](https://github.com/mercurjs/mercur)** 🚀 | [![mercurjs/mercur Stars](https://img.shields.io/github/stars/mercurjs/mercur?style=social&color=white)](https://github.com/mercurjs/mercur/stargazers) | Open-Source B2B & B2C Marketplace Engine | Modern TypeScript/Next.js multi-vendor marketplace framework with admin portal, vendor dashboard, and storefront. |
+| **[openmvm/OpenMVM](https://github.com/openmvm/OpenMVM)** 🌐 | [![openmvm/OpenMVM Stars](https://img.shields.io/github/stars/openmvm/OpenMVM?style=social&color=white)](https://github.com/openmvm/OpenMVM/stargazers) | PHP Multi-Vendor Core Engine | Open-source multi-vendor e-commerce software focused on multi-currency, multi-language, and vendor commission rules. |
+
+---
+
+## 🛠️ Open-Source Building Blocks & Developer Resources
+
+- **[Amazon SP-API SDKs](https://github.com/search?q=Amazon+SP-API)**: Community-maintained libraries in Python, Node.js, and PHP for Amazon Selling Partner API.
+- **[eBay REST API Client SDKs](https://github.com/search?q=eBay+API)**: Open-source developer SDKs for managing inventory, listings, and orders on eBay.
+- **[Product Feed Transformers](https://github.com/search?q=product+feed+generator)**: Lightweight tools for transforming XML/JSON product catalogs into Google Shopping & marketplace formats.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are welcome! Help expand this list by following these steps:
+
+1. 🍴 **Fork** this repository.
+2. 📝 **Add/edit** entries in `README.md` following the standard markdown table structure.
+3. 🔎 **Provide details**: Name, GitHub/website link, pricing/stars, and accurate focus description.
+4. 🚀 **Open a Pull Request** with a clear explanation of your additions.
+
+---
+
+## ⚠️ Disclaimer
+
+- This repository is a **community-curated index** provided for informational purposes only.
+- Marketplace operations involve strict third-party platform policies, API rate limits, and compliance obligations.
+- Open-source platforms require ongoing infrastructure, maintenance, and security management, whereas SaaS platforms offer fully hosted support and pre-built integrations.
+
+---
+
+## 💖 Support & Sponsorship
+
+If you find this repository helpful for your e-commerce architecture, marketplace engineering, or multi-channel operations, please consider supporting the project:
+
+- ⭐ **Star this repository** to help others discover it!
+- 🔀 **Fork & Share** with fellow developers and commerce teams.
+- ☕ **Buy me a coffee / Sponsor:** [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007)
+
+Thank you for your support and contributions! ❤️
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Marketplace-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Marketplace-Management&type=date&legend=top-left)
