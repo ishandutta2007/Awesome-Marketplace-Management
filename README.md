@@ -49,9 +49,9 @@ Top multi-channel marketplace listing, inventory sync, and order management plat
 
 ## 🔓 Open-Source GitHub Projects
 
-Curated open-source multi-vendor marketplace frameworks, headless commerce foundations, and developer tools, sorted by GitHub repository star counts (descending).
+Curated open-source multi-vendor marketplace frameworks, headless commerce foundations, and developer tools, sorted by GitHub repository Stars_Counts (descending).
 
-| Repository 📦 | GitHub Stars ⭐ | Primary Use Case & Architecture 🏗️ | Key Features & Strengths 🌟 |
+| Repository 📦 | GitHub_Stars ⭐ | Primary Use Case & Architecture 🏗️ | Key Features & Strengths 🌟 |
 | :--- | :--- | :--- | :--- |
 | **[medusajs/medusa](https://github.com/medusajs/medusa)** ⚡ | [![medusajs/medusa Stars](https://img.shields.io/github/stars/medusajs/medusa?style=social&color=white)](https://github.com/medusajs/medusa/stargazers) | Headless Open-Source Commerce Engine | Node.js / TypeScript open commerce engine; customizable for multi-vendor and custom marketplace integrations. |
 | **[bagisto/bagisto](https://github.com/bagisto/bagisto)** 🛍️ | [![bagisto/bagisto Stars](https://img.shields.io/github/stars/bagisto/bagisto?style=social&color=white)](https://github.com/bagisto/bagisto/stargazers) | PHP / Laravel Multi-Vendor Marketplace | Production-ready Laravel platform for multi-vendor marketplaces with vendor panel, commission tracking, and storefront. |
